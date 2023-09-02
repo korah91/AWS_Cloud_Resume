@@ -1,0 +1,62 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply basic styling to body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  /* Main content container */
+  section {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  /* Section heading styling */
+  h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Links styling */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* List styling */
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  /* Additional section-specific styling */
+  #profile {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  /* Add more section-specific styles as needed */
+  
