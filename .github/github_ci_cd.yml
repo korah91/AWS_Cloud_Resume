@@ -21,4 +21,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           # La región de AWS
           AWS_REGION: 'eu-west-3'
-          SOURCE_DIR: 'website' 
+          SOURCE_DIR: 'pagina_web' 
