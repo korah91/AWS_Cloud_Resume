@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let response = await fetch("https://piyzribk5n4wmjlnbcv3gtdtzm0vepxn.lambda-url.eu-west-3.on.aws/");
         let data = await response.json();
         counter.innerHTML = `You are visitor number ${data}!!`;
-        console.log("Se ha actualizado el contador a ${data}");
+        console.log(`Se ha actualizado el contador a ${data}`);
     }
 
     updateCounter();
