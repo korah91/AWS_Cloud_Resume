@@ -24,11 +24,14 @@ Recent graduate in an internship researching to explore LLMs in DevOps and devel
 <div class="counter"></div>
 <script>
   const counter = document.querySelector(".counter-number");
-  
-  let response = await fetch("https://piyzribk5n4wmjlnbcv3gtdtzm0vepxn.lambda-url.eu-west-3.on.aws/");
-  let data = await response.json();
-  counter.innerHTML = ` This page has ${data} Views!`;
-  console.log(`Se ha visitado la pagina ${data} veces`)
+  async function updateCounter() {
+      let response = await fetch("https://piyzribk5n4wmjlnbcv3gtdtzm0vepxn.lambda-url.eu-west-3.on.aws/");
+      let data = await response.json();
+      counter.innerHTML = ` This page has ${data} Views!`;
+      console.log(`Se ha visitado la pagina ${data} veces`)
+  }
+
+  updateCounter();
 
 </script>
 ---
