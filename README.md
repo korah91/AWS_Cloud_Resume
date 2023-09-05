@@ -1,5 +1,9 @@
-# cloud_resume
-Currículum en Markdown hosteado en AWS S3 que utiliza Route53, CloudFront, Lambda y DynamoDB
+# Cloud Resume
+
+Personal CV hosted in AWS S3 using CloudFront, Route53, Lambda and DynamoDB
+--
+Currículum en Markdown hosteado en AWS S3 que utiliza CloudFront, Route53, Lambda y DynamoDB
+--
 
 
 - I have designed my personal website to serve as my resume, utilizing various AWS services for optimal performance and functionality.
@@ -8,5 +12,5 @@ Currículum en Markdown hosteado en AWS S3 que utiliza Route53, CloudFront, Lamb
 - For a professional and secure online presence, I registered my domain using Amazon Route 53 and obtained an SSL certificate via AWS Certificate Manager (ACM) to ensure data integrity and encryption.
 - To track and display visitor statistics, I implemented a dynamic visitor counter. When someone accesses my CV, a JavaScript file triggers a request to a serverless AWS Lambda function. This Lambda function increments a view counter value stored in an Amazon DynamoDB table and retrieves the updated count, which is then presented to the person at the bottom of my CV."
 
-Diagram of the setup:
+# Diagram of the setup:
 ![Diagram of the setup](diagrama_aws_cv.jpg)
