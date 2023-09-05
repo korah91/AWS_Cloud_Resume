@@ -21,7 +21,16 @@
 ## Profile <a href="https://www.linkedin.com/in/joel-escribano/"><img style="float:right; width:20px; padding:6px" src="linkedin-logo.png" /></a> <a href="https://github.com/korah91"><img style="float:right; width:20px; padding:6px" src="github-logo.png" /></a>
 Recent graduate in an internship researching to explore LLMs in DevOps and developing an innovative LLM app. Additionally, I'm preparing for the AWS Cloud Practitioner exam to enhance my skill set.
 ---
-<div class="counter-number"></div>
+<div class="counter"></div>
+<script>
+  const counter = document.querySelector(".counter-number");
+  
+  let response = await fetch("https://piyzribk5n4wmjlnbcv3gtdtzm0vepxn.lambda-url.eu-west-3.on.aws/");
+  let data = await response.json();
+  counter.innerHTML = ` This page has ${data} Views!`;
+  console.log(`Se ha visitado la pagina ${data} veces`)
+
+</script>
 ---
 ## Professional Experience
 ### Researcher & Software Dev (Python/Streamlit/OpenAI)
@@ -66,6 +75,5 @@ Computer Engineering
 ---
 ## References
 Available upon request.
-<script src="main.js"></script>
 
 </body>
