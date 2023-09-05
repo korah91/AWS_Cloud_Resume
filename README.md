@@ -9,4 +9,4 @@ Currículum en Markdown hosteado en AWS S3 que utiliza Route53, CloudFront, Lamb
 - To track and display visitor statistics, I implemented a dynamic visitor counter. When someone accesses my CV, a JavaScript file triggers a request to a serverless AWS Lambda function. This Lambda function increments a view counter value stored in an Amazon DynamoDB table and retrieves the updated count, which is then presented to the person at the bottom of my CV."
 
 Diagram of the setup:
-![Diagram of the setup](diagrama_aws_cv.png)
+![Diagram of the setup](diagrama_aws_cv.jpg)
