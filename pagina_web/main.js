@@ -7,7 +7,7 @@ async function updateCounter() {
     console.log(`Se ha visitado la pagina ${data} veces`)
     // Se crea un elemento al final del body con el valor del contador
     const counter = document.createElement("p");
-    counter.textContent = `This page has received ${data} visits. Each time someone visits this page, a JavaScript file sends a GET request to an <strong>AWS Lambda</strong> function, which in turn increments the counter in <strong>DynamoDB</strong> and reads the total value.`;
+    counter.innerHTML = `This page has received ${data} visits. Each time someone visits this page, a JavaScript file sends a GET request to an <strong>AWS Lambda</strong> function, which in turn increments the counter in <strong>DynamoDB</strong> and reads the total value.`;
     document.body.appendChild(counter);
 }
 
