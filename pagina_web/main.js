@@ -1,4 +1,4 @@
-const counter = document.querySelector(".counter-number");
+const counter = document.querySelector(".counter");
 async function updateCounter() {
     let response = await fetch("https://piyzribk5n4wmjlnbcv3gtdtzm0vepxn.lambda-url.eu-west-3.on.aws/");
     let data = await response.json();
