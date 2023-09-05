@@ -4,6 +4,9 @@ async function updateCounter() {
     let data = await response.json();
     counter.innerHTML = ` This page has ${data} Views!`;
     console.log(`Se ha visitado la pagina ${data} veces`)
+    const newParagraph = document.createElement("p");
+    newParagraph.textContent = "This is a new paragraph added via JavaScript.";
+    document.body.appendChild(newParagraph);
 }
 
 updateCounter();
