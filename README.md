@@ -10,4 +10,6 @@ Personal CV hosted in AWS S3 using CloudFront, Route53, Lambda and DynamoDB 🚀
 
 - 👨‍🏫 I learnt a lot following Dillon Meacham's guide for this project! [Link](https://www.linkedin.com/posts/dillonmeacham_how-to-create-a-cloud-resume-with-aws-a-activity-7075934031611133952-sese/)
 
-# Diagram of the setup:![Diagram of the setup](diagrama_aws_cv.jpg)
+# Diagram of the setup:
+
+![Diagram of the setup](diagrama_aws_cv.jpg)
