@@ -8,7 +8,7 @@ Personal CV hosted in AWS S3 using CloudFront, Route53, Lambda and DynamoDB 🚀
 - 🔒 For a professional and secure online presence, I registered my domain using Amazon Route 53 and obtained an SSL certificate via AWS Certificate Manager (ACM) to ensure data integrity and encryption.
 - 📈 To track and display visitor statistics, I implemented a dynamic visitor counter. When someone accesses my CV, a JavaScript file triggers a request to a serverless AWS Lambda function. This Lambda function increments a view counter value stored in an Amazon DynamoDB table and retrieves the updated count, which is then presented to the person at the bottom of my CV."
 
-- 👨‍🏫 I learnt a lot following Dillon Meacham's guide for this project! [Link](https://www.linkedin.com/posts/dillonmeacham_how-to-create-a-cloud-resume-with-aws-a-activity-7075934031611133952-sese/)
+- 👨‍🏫 I learnt a lot following Dillon Meacham's guide for this project! [Credit for him!! :)](https://www.linkedin.com/posts/dillonmeacham_how-to-create-a-cloud-resume-with-aws-a-activity-7075934031611133952-sese/)
 
 # Diagram of the setup:
 
