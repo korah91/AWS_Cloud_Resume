@@ -1,5 +1,5 @@
 async function updateCounter() {
-    // Se hace una peticion GET a la funcion lambda
+    // Se hace una peticion GET a la funcion lambda 
     let response = await fetch("https://piyzribk5n4wmjlnbcv3gtdtzm0vepxn.lambda-url.eu-west-3.on.aws/");
     // Se obtiene el valor de la respuesta. El contador de visitas
     let data = await response.json();
